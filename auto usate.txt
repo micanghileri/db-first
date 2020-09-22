@@ -1,0 +1,14 @@
+AUTO USATE
+										
+			ID	   	NUMERO INCREMENTALE     PRIMARY KEY, UNIQUE, AI     
+   
+Marca     		Stringa      	varchar(40)             NOT NULL
+Produzione(anno)         	Data	      	year		     
+Colore          		Stringa      	varchar (20)            NOT NULL
+Modello         	 	Stringa      	varchar (20)            NOT NULL
+Carburante		Stringa		varchar (10)	       NOT NULL
+Chilometraggio		Numero       	smallint		       NOT NULL
+Cittˆ(provenienza)	Stringa		varchar (30)	       NOT NULL
+Disponibilitˆ     	Booleano     	tinynt		       DEFAULT(1)
+Prezzo                   	Numero       	smallint		       NOT NULL
+
